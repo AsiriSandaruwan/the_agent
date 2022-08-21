@@ -1,0 +1,76 @@
+.banner-sec h1, .banner-sec p, .service-box h2, .service-box p{
+  font-family: 'Poppins', sans-serif !important; 
+}
+.banner-sec h1, .banner-sec p, .banner-sec .block-editor-block-list__block, .service-box .block-editor-block-list__block, .service-box h2, .service-box p{
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+/*Banner section*/
+.banner-sec .wp-block-column.is-vertically-aligned-center {
+  left: 7%;
+}
+.banner-sec h1, .banner-sec p, .banner-sec .wp-block-buttons.block-editor-block-list__block.wp-block.block-editor-block-list__layout{
+  margin-top: 0;
+}
+.banner-sec .slider-search input{
+  border-radius: 15px;
+  padding: 12px;
+}
+.banner-sec .slider-search .components-resizable-box__container.wp-block-search__inside-wrapper{
+  margin-top: 20px !important;
+}
+.banner-sec .slider-search .wp-block-search__button{
+  color: #fff;
+  font-size: 15px;
+  background: #fd356f !important;
+  border-radius: 30px;
+  font-weight: 500;
+  border-radius: 15px;
+  text-transform: uppercase;
+  margin-left: -35px;
+  padding: 14px !important;
+}
+/*Service section*/
+.service-sec .service-box h2 a{
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.service-sec .service-box{
+  border-radius: 30px;
+  box-shadow: 2px 0 15px rgb(0 0 0 / 65%);
+  padding: 0;
+}
+.service-sec .service-box img{
+  border-radius: 30px 30px 0 0;
+  width: 100% !important;
+}
+.service-box .wp-block-image .components-resizable-box__container{
+  display: block;
+}
+.service-sec .service-box:hover .wp-block-image{
+  background: #6102d3;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+}
+.service-sec .service-box:hover .wp-block-image img{
+  opacity: 0.4;
+}
+.serv-content-group, .service-box .block-editor-block-list__block.wp-block{
+  margin: 0 !important;
+}
+.serv-content-group{
+  padding: 10px;
+}
+.service-box figure{
+  display: block !important;
+}
+@media screen and (max-width:767px) {
+  .banner-section .wp-block-column.is-vertically-aligned-center {
+    position: static;
+  }
+}
+@media screen and (max-width:1024px) {
+  .wp-block-columns.alignwide {
+    margin: 0;
+  }
+}
